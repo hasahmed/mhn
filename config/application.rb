@@ -37,7 +37,7 @@ module Lobsters
 
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
-    config.time_zone = "Central Time (US & Canada)"
+    config.time_zone = "Eastern Time (US & Canada)"
 
     config.eager_load_namespaces << I18n
 
@@ -107,15 +107,15 @@ class << Rails.application
   end
 
   def domain
-    "lobste.rs"
+    "mhn.hasanahmed.net"
   end
 
   def name
-    "Lobsters"
+    "Muslim Tech News (Muslim Hacker News)"
   end
 
   def og_description
-    "A computing-focused community centered around link aggregation and discussion."
+    "A muslim tech-focused community centered around link aggregation and discussion."
   end
 
   # to force everyone to be considered logged-out (without destroying
